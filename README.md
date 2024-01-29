@@ -1,5 +1,5 @@
 ## What is Generative AI?
-### Generative AI is a form of AI in which models are trained to generate new original content based on natural language input. In other words, you can describe a desired output in normal everyday language, and the model can respond by creating appropriate text, image or even code output
+### generative AI, a branch of artificial intelligence that creates new content based on natural language input. Generative AI is typically built into software applications and uses language models trained with huge volumes of textual data to generate human-like natural language responses or even original images.  In other words, you can describe a desired output in normal everyday language, and the model can respond by creating appropriate text, image or even code output 
 
 ## Large Language Models
 ### Generative AI applications are powered by large language models (LLMs), which are a specialized type of machine learning model that you can use to perform natural language processing (NLP) tasks, including:
