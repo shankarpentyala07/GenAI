@@ -7,3 +7,6 @@ Fine Tuning:
 IBM Watsonx usecases: https://www.ibm.com/products/watsonx-ai
 
 RAG Code development: https://www.youtube.com/watch?v=XctooiH0moI
+
+Demo:
+1. Build chatbot with RAG
