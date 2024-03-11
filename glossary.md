@@ -1,0 +1,6 @@
+1. Auto GPT - An open-source AI tool that understands goals expressed in natural language, breaks them into smaller tasks, and autonomously works to generate and perform tasks with minimal to zero human input and intervention through self-prompting.
+2. Custom GPT - A platform that enables users to construct personalized chatbots using their data, facilitating a customized conversational AI.
+3. Diffusion model - A type of generative model that is popularly used for generating high-quality samples and performing various tasks, including image synthesis. They are trained by gradually adding noise to an image and then learning to remove the noise. This process is called diffusion
+4. Generative adversarial network (GAN) - A type of generative model that includes two neural networks: generator and discriminator. The generator is trained on vast data sets to create samples like text and images. The discriminator tries to distinguish whether the sample is real or fake.
+5. Generative pre-trained transformer (GPT) - A series of large language models developed by OpenAI. They are designed to understand language by leveraging a combination of two concepts: training and transformers.
+6. Prompt engineering	 - The process of designing effective prompts to generate better and desired responses.
