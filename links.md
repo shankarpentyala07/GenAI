@@ -10,6 +10,11 @@ RAG Code development: https://www.youtube.com/watch?v=XctooiH0moI
 
 Watsonx docs: https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?context=wx&audience=wdp
 
+Chatbots:
+https://gemini.google.com/
+https://chat.openai.com/
+https://stablediffusionweb.com/ - ** Image Generation
+
 Demo:
 1. Build chatbot with RAG
    
