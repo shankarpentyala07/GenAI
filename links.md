@@ -12,3 +12,9 @@ Watsonx docs: https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-starte
 
 Demo:
 1. Build chatbot with RAG
+   
+Ideas:
+1. Search slack & give answers
+2. Search github issues & give answers
+3. Search documentation & give answers
+4. Personalized genAI chatbot for team.
