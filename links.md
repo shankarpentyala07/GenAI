@@ -23,3 +23,7 @@ Ideas:
 2. Search github issues & give answers
 3. Search documentation & give answers
 4. Personalized genAI chatbot for team.
+5. Implement RAG projects
+
+AI Tools List Website:
+https://theresanaiforthat.com/
