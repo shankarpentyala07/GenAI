@@ -1,0 +1,4 @@
+.env
+.venv
+langchain/chatbot/.env
+langchain/chatbot/myenv
