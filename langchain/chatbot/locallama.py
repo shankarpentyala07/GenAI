@@ -1,11 +1,10 @@
-#This chatbot is via openAI paid llms
-
-#ChatOPenAI chat model imported as below
-from langchain_openai import ChatOpenAI
 #The prompt templates
 from langchain_core.prompts import ChatPromptTemplate
 #StrOutputParser is the default output parser
 from langchain_core.output_parsers import StrOutputParser
+
+#Third party integration using langchain community , embeddings 
+from langchain_community.llms import Ollama
 
 import streamlit as st
 import os
@@ -14,7 +13,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 #langchain api key will help with monitoring i.e.. Langmith tracking
 os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"]="true"
@@ -28,20 +26,15 @@ prompt=ChatPromptTemplate.from_messages(
 )
 
 ## streamlit framework
-st.title('Langchain Demo with OPENAI API')
+st.title('Langchain Demo with Local llama model')
 input_text=st.text_input("Search the topic you want")
 
-# openAI LLms
-llm=ChatOpenAI(model="gpt-3.5-turbo")
 output_parser=StrOutputParser()
+
+# local LLms using Ollama
+llm=Ollama(model="llama2")
 
 chain=prompt|llm|output_parser
 
 if input_text:
     st.write(chain.invoke({'question': input_text}))
-
-
-
-
-
-
