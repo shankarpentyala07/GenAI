@@ -29,3 +29,5 @@ AI Tools List Website:
 https://theresanaiforthat.com/
 
 LLama models card: https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-3/
+
+llama cookbooks: https://github.com/meta-llama/llama-cookbook/blob/main/getting-started/responsible_ai/llama_guard/llama_guard_text_and_vision_inference.ipynb
