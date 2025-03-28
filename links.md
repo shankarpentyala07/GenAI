@@ -27,3 +27,5 @@ Ideas:
 
 AI Tools List Website:
 https://theresanaiforthat.com/
+
+LLama models card: https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-3/
